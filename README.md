@@ -237,6 +237,8 @@ The website will be to encourage customers to feel confident and comfortable in 
 
 ### Acknowledgements
 
+- All images for the website have been sourced from www.unsplash.com
+
 
 
 
