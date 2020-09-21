@@ -1,4 +1,4 @@
-
+![Henry Phillips Carts Ltd](assets/images/hero-mini.jpg)
 
 ## Henry Phillips Cars LTD
 
