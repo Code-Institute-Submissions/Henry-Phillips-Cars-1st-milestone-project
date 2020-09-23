@@ -31,7 +31,7 @@ body {
     color: rgba(255, 255, 255, 1)
 }
 
-/* ----------------------------------------------------------------------------------------Hero image banner */
+/* ----------------------------------------------------------------------------------------jumbotron image banner */
 
 .jumbotron {
     height: 100%;
@@ -42,12 +42,15 @@ body {
     
 }
 
-.jumbotron btn {
-    position: float-right:
+.jumbotron .btn-success {
+    background-color:#1aab3b;
+    border-color:#1aab3b;
 }
 
 
-/* ----------------------------------------------------------------------------------------vehicles, customisations, Service/Repairs images */
+
+
+/* ----------------------------------------------------------------------------------------vehicles, customisations, Service/Repairs images and buttons */
 
 .vehicle-page-image, .custom-options-image, .servicing-repairs-image {
     margin-top: 50px;
@@ -55,4 +58,62 @@ body {
     height: 380px
     padding: 15px;
     display: block;
+}
+
+
+.vehicle-container .vehicle-image-btn {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: rgba(103,103,103.1);
+  color: white;
+  font-size: 20px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 0;
+}
+
+.vehicle-container .vehicle-image-btn:hover {
+  background-color: #1aab3b;
+}
+
+.custom-container .custom-image-btn {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: rgba(103,103,103.1);
+  color: white;
+  font-size: 20px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 0;
+}
+
+.custom-container .custom-image-btn:hover {
+  background-color: #1aab3b;
+}
+
+.servicing-container .servicing-image-btn {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: rgba(103,103,103.1);
+  color: white;
+  font-size: 20px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 0;
+}
+
+.servicing-container .servicing-image-btn:hover {
+  background-color: #1aab3b;
 }
