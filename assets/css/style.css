@@ -117,3 +117,30 @@ body {
 .servicing-container .servicing-image-btn:hover {
   background-color: #1aab3b;
 }
+
+/* ----------------------------------------------------------------------------------------Featured car home page */
+
+.featured-car-heading {
+    padding-bottom: 50px;
+}
+
+
+.featured-car {
+    border: 5px;
+    border-color: rgba(103,103,103.1);
+}
+
+
+.featured-banner-outer {
+    margin:0;
+    padding-top: 25px;
+    padding-bottom:125px;
+    background-color: #cccccc;
+}
+
+.featured-car-description {
+    font-weight: 500;
+    background-color: rgba(103,103,103.1);
+    color: white;
+    
+}
