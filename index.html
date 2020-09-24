@@ -1,160 +1,268 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/99ff1b1a00.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <title>Henry Phillips Cars Ltd</title>
+  </head>
 
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-		integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
-	<script src="https://kit.fontawesome.com/99ff1b1a00.js" crossorigin="anonymous"></script>
-	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-	<title>Henry Phillips Cars Ltd</title>
-</head>
+  <body>
+    <!------------------------------------------------------------------------Navbar and collapsable button used bootstrap for this -->
+    <div>
+      <nav class="navbar navbar-dark navbar-expand-lg fixed-top">
+        <a href="/" class="navbar-brand">Henry Phillips Cars Ltd</a>
 
-<body>
-	<!------------------------------------------------------------------------Navbar and collapsable button used bootstrap for this -->
-	<div>
-		<nav class="navbar navbar-dark navbar-expand-lg fixed-top">
-			<a href="/" class="navbar-brand">Henry Phillips Cars Ltd</a>
+        <button
+          class="navbar-toggler ml-auto"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-			<button
-        class="navbar-toggler ml-auto"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNavDropdown"
-        aria-controls="navbarNavDropdown"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNavDropdown"
+        >
+          <ul class="navbar-nav mr-auto">
+            <li class="active nav-item mr-2">
+              <a class="nav-link" href="/">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Vehicles
+              </a>
+              <div
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <a class="dropdown-item" href="#">Vehicle 1</a>
+                <a class="dropdown-item" href="#">Vehicle 2</a>
+                <a class="dropdown-item" href="#">Vehicle 3</a>
+                <a class="dropdown-item" href="#">Vehicle 4</a>
+              </div>
+            </li>
+            <li class="nav-item mr-2">
+              <a class="nav-link" href="">Customisation Options</a>
+            </li>
+            <li class="nav-item mr-2">
+              <a class="nav-link" href="">Servicing/Repairs</a>
+            </li>
+            <li class="nav-item mr-2">
+              <a class="nav-link" href="">Testimonials</a>
+            </li>
+            <li class="nav-item mr-2">
+              <a class="nav-link" href="">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+        <div class="d-none d-md-block">
+          <p class="navbar-text my-auto mr-2 d-md-none d-lg-inline">
+            Telephone: 012345678
+          </p>
+        </div>
+      </nav>
+    </div>
+    <!------------------------------------------------------------------------Hero image utilizing bootstrap -->
+    <section class="home-page-content">
+      <div class="jumbotron jumbotron-fluid">
+        <div class="jumbotron-overlay-text text-center">
+          <p class="lead text-light">
+            Number 1 used car and mini specialist in Suffolk. Suppling quality
+            vehicles since 2006!
+          </p>
+          <a class="btn btn-success btn-lg" href="#" role="button"
+            >Book An Appointment Today!</a
+          >
+        </div>
+      </div>
+      <!--------------------------------------------------------------------Active link images to other pages utilizing bootstrap columns and buttons -->
+      <div class="vehicles-custom-repairs container">
+        <div class="row">
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <div class="vehicle-container">
+              <img
+                class="vehicle-page-image rounded border border-secondary"
+                src="assets/images/vehicle-orange.jpg"
+                alt="Vehicle page image link orange mini"
+              />
+              <button
+                type="button"
+                class="vehicle-image-btn btn btn-success btn-lg btn-block rounded-bottom"
+                href="#"
+              >
+                Current Vehicles
+              </button>
+            </div>
+          </div>
 
-			<div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-				<ul class="navbar-nav mr-auto">
-					<li class="active nav-item mr-2">
-						<a class="nav-link" href="/">Home</a>
-					</li>
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							Vehicles
-						</a>
-						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-							<a class="dropdown-item" href="#">Vehicle 1</a>
-							<a class="dropdown-item" href="#">Vehicle 2</a>
-							<a class="dropdown-item" href="#">Vehicle 3</a>
-							<a class="dropdown-item" href="#">Vehicle 4</a>
-						</div>
-					</li>
-					<li class="nav-item mr-2"><a class="nav-link" href="">Customisation Options</a></li>
-					<li class="nav-item mr-2"><a class="nav-link" href="">Servicing/Repairs</a></li>
-					<li class="nav-item mr-2"><a class="nav-link" href="">Testimonials</a></li>
-					<li class="nav-item mr-2"><a class="nav-link" href="">Contact Us</a></li>
-				</ul>
-			</div>
-			<div class="d-none d-md-block">
-				<p class="navbar-text my-auto mr-2 d-md-none d-lg-inline">
-					Telephone: 012345678
-				</p>
-			</div>
-		</nav>
-	</div>
-	<!------------------------------------------------------------------------Hero image utilizing bootstrap -->
-	<section class="home-page-content">
-		<div class="jumbotron jumbotron-fluid">
-			<div class="jumbotron-overlay-text text-center">
-				<p class="lead text-light">Number 1 used car and mini specialist in Suffolk. Suppling quality vehicles
-					since 2006!</p>
-				<a class="btn btn-success btn-lg" href="#" role="button">Book An Appointment Today!</a>
-			</div>
-		</div>
-		<!------------------------------------------------------------------------Active link images to other pages utilizing bootstrap columns and buttons -->
-		<div class="vehicles-custom-repairs container">
-			<div class="row">
-				<div class="col-sm-12 col-md-4 col-lg-4">
-					<div class="vehicle-container">
-						<img class="vehicle-page-image rounded border border-secondary" src="assets/images/vehicle-orange.jpg" alt="Vehicle page image link orange mini" />
-						<button type="button" class="vehicle-image-btn btn btn-success btn-lg btn-block rounded-bottom" href="#">Current Vehicles</button>
-					</div>
-				</div>
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <div class="custom-container">
+              <img
+                class="custom-options-image rounded border border-secondary"
+                src="assets/images/custom-and-repairs-image.jpg"
+                alt="Customisation and Options page image link"
+              />
+              <button
+                type="button"
+                class="custom-image-btn btn btn-success btn-lg btn-block rounded-bottom"
+                href="#"
+              >
+                Customisation
+              </button>
+            </div>
+          </div>
 
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <div class="servicing-container">
+              <img
+                class="servicing-repairs-image rounded border border-secondary"
+                src="assets/images/servicing-repairs-image.jpg"
+                alt="Servicing and repairs page image link"
+              />
+              <button
+                type="button"
+                class="servicing-image-btn btn btn-success btn-lg btn-block rounded-bottom"
+                href="#"
+              >
+                Servicing/Repairs
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!------------------------------------------------------------------------Homepage content about Us and meet the owner utlising bootstrap columns -->
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h2
+              class="Welcome-heading text-center text-uppercase font-weight-bold"
+            >
+              Welcome to Henry Phillips Cars Ltd
+            </h2>
+            <p>Used car specialist and mini specialist in Sudbury, Suffolk</p>
+            <div class="row">
+              <div class="col-12 text-left">
+                <h4
+                  class="about-us-section text-left text-uppercase font-weight-bold"
+                >
+                  About Us
+                </h4>
+                <p>
+                  Welcome to Henry Phillips Cars Ltd, a family run business that
+                  has been in the used car industry since 2006. James can help
+                  you with every aspect of your second-hand vehicle purchase. We
+                  work hard to make sure we understand our customers and their
+                  needs, ensuring Henry Phillips Cars offer a service which is
+                  honest, fair, and puts every customer first who visits us in
+                  person or online. We want people to come and enjoy the whole
+                  process, to see, touch, feel and even smell our used cars in
+                  stock, which is why James takes great pride in sourcing
+                  quality, individual second-hand cars.
+                </p>
 
+                <p>
+                  If you are looking for great savings on quality used cars and
+                  mini’s in Suffolk area, then you have reached the right place.
+                  Henry Phillips Cars are a specialist used car and mini dealer
+                  based in Sudbury.
+                </p>
 
-				<div class="col-sm-12 col-md-4 col-lg-4">
-					<div class="custom-container">
-						<img class="custom-options-image rounded border border-secondary" src="assets/images/custom-and-repairs-image.jpg" alt="Customisation and Options page image link" />
-						<button type="button" class="custom-image-btn btn btn-success btn-lg btn-block rounded-bottom" href="#">Customisation</button>
-					</div>
-				</div>
+                <p>
+                  If you are looking for your next car, then don't delay, call
+                  us today!
+                </p>
 
+                <p>
+                  In order to offer cars to suit everyone’s needs we make sure
+                  that we update our stocklist regularly. It is therefore always
+                  worth giving us a call, even if you don't see what you are
+                  looking for on our website.
+                </p>
+                <div class="row">
+                  <div class="col-12 text-center">
+                    <h6
+                      class="appointment-only text-uppercase font-weight-bold"
+                    >
+                      Viewing by appointment only
+                    </h6>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12 text-left">
+                    <h4 class="meet-owner text-uppercase font-weight-bold">
+                      Meet the owner
+                    </h4>
+                    <p>
+                      James has always had a passion for cars this started when
+                      he was a small boy. Fascinated by racing and fast cars
+                      James’s time when growing up was filled with following
+                      formula One, British Touring Cars, Rallying and Single
+                      seater racing. James started to race professionally in
+                      1997 at the age of just 27.
+                    </p>
+                    <p>
+                      James has gained his experience in the industry working
+                      for local garages at the beginning of his career which saw
+                      him progress to large car manufacturer dealerships both in
+                      the workshops and the sales floor gaining over 30 year’s
+                      experience in the industry.
+                    </p>
 
+                    <p class="confidence-quote">
+                      <q
+                        >Rest assured you’re in the best hands when you visit
+                        Henry Phillips Cars</q
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
 
-				<div class="col-sm-12 col-md-4 col-lg-4">
-					<div class="servicing-container">
-						<img class="servicing-repairs-image rounded border border-secondary" src="assets/images/servicing-repairs-image.jpg" alt="Servicing and repairs page image link" />
-						<button type="button" class="servicing-image-btn btn btn-success btn-lg btn-block rounded-bottom" href="#">Servicing/Repairs</button>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="container">
-			<div class="row">
-				<div class="col-12 text-center">
-					<h2 class="Welcome-heading text-center text-uppercase font-weight-bold">Welcome to Henry Phillips
-						Cars Ltd</h2>
-					<p>Used car specialist and mini specialist in Sudbury, Suffolk</p>
-					<div class="row">
-						<div class="col-12 text-left">
-							<h4 class="about-us-section text-left text-uppercase font-weight-bold">About Us</h4>
-							<p>Welcome to Henry Phillips Cars Ltd, a family run business that has been in the used car
-								industry since 2006. James can help you with every aspect of your second-hand vehicle
-								purchase. We work hard to make sure we understand our customers and their needs,
-								ensuring Henry Phillips Cars offer a service which is honest, fair, and puts every
-								customer first who visits us in person or online. We want people to come and enjoy the
-								whole process, to
-								see, touch, feel and even smell our used cars in stock, which is why James takes great
-								pride in sourcing quality, individual second-hand cars. </p>
-
-							<p>If you are looking for great savings on quality used cars and mini’s in Suffolk area,
-								then you have reached the right place. Henry Phillips Cars are a specialist used car and
-								mini dealer based in Sudbury. </p>
-
-							<p>If you are looking for your next car, then don't delay, call us today!</p>
-
-							<p>In order to offer cars to suit everyone’s needs we make sure that we update our stocklist
-								regularly. It is therefore always worth giving us a call, even if you don't see what you
-								are looking for on our website.</p>
-							<h6 class="appointment-only text-uppercase font-weight-bold text-center">Viewing by appointment only
-							</h6>
-							<h4 class="meet-owner text-uppercase font-weight-bold">Meet the owner</h4>
-							<p>James has always had a passion for cars this started when he was a small boy.
-								Fascinated by racing and fast cars James’s time when growing up was filled with
-								following formula One, British Touring Cars, Rallying and Single seater racing.
-								James started to race professionally in 1997 at the age of just 27.</p>
-							<p>James has gained his experience in the industry working for local garages at the
-								beginning of his career which saw him progress to large car manufacturer dealerships
-								both in the workshops and the sales floor gaining over 30 year’s experience in the
-								industry.</p>
-                            <p class="confidence-quote"><q>Rest assured you’re in the best hands when you visit Henry Phillips Cars</q></p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<footer>
-
-	</footer>
-	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-	</script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-		integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
-	</script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-		integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
-	</script>
-</body>
-
+    <footer></footer>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
