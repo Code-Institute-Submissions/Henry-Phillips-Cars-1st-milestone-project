@@ -120,16 +120,45 @@ body {
 
 /* ----------------------------------------------------------------------------------------Featured car home page */
 
+.content-about-us-hpc {
+    color: rgba(103,103,103.1);
+}
+
+.specialist-mini {
+    padding-bottom: 25px;
+    color: rgba(103,103,103.1);
+}
+
+.appointment-only {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: rgba(103,103,103.1);
+}
+
+.confidence-quote {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(103,103,103.1);
+}
+
+
+/* ----------------------------------------------------------------------------------------About Us content */
+
+.featured-car-heading-main {
+    padding-bottom: 50px;
+    color: rgba(103,103,103.1);
+}
+
 .featured-car-heading {
     padding-bottom: 50px;
 }
-
 
 .featured-car {
     border: 5px;
     border-color: rgba(103,103,103.1);
 }
-
 
 .featured-banner-outer {
     margin:0;
