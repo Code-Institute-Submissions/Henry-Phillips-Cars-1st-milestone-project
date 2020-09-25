@@ -198,3 +198,13 @@ body {
     padding: 0;
     margin: 0;
 }
+
+/* ----------------------------------------------------------------------------------------Contact and opening times */
+
+.contact-times-banner {
+    color: white;
+    background-color: rgba(103,103,103.1);
+    height: 220px;
+    padding-top: 35px;
+}
+
