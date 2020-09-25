@@ -211,3 +211,8 @@ body {
     position: center;
 }
 
+.color-break-point {
+    background-color: #1aab3b;
+    height: 25px;
+}
+
