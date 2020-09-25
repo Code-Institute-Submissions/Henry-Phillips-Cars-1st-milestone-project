@@ -171,6 +171,30 @@ body {
 .featured-car-description {
     font-weight: 500;
     background-color: rgba(103,103,103.1);
-    color: white;
-    
+    color: white; 
+}
+
+/* ----------------------------------------------------------------------------------------Google Maps */
+
+.mapouter {
+	position: relative;
+	text-align: right;
+	height: 100%;
+	width: 100%;
+    margin:0;
+    padding:0;
+}
+
+.gmap_canvas {
+	overflow: hidden;
+	background: none;
+	height: 100%;
+	width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.google-map-section {
+    padding: 0;
+    margin: 0;
 }
