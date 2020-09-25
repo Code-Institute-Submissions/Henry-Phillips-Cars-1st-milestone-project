@@ -204,7 +204,10 @@ body {
 .contact-times-banner {
     color: white;
     background-color: rgba(103,103,103.1);
-    height: 220px;
+    height: 250px;
+    width: 100%;
     padding-top: 35px;
+    padding-bottom: 35px;
+    position: center;
 }
 
