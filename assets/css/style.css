@@ -50,8 +50,6 @@ body {
 .vehicle-page-image, .custom-options-image, .servicing-repairs-image {
     margin-top: 50px;
     width: 100%;
-    height: 380px
-    padding: 15px;
     display: block;
 }
 
@@ -186,7 +184,6 @@ body {
 	width: 100%;
     margin: 0;
     padding: 0;
-    box-sizing: 0;
 }
 
 .google-map-section {
@@ -204,7 +201,6 @@ body {
     width: 100%;
     padding-top: 35px;
     padding-bottom: 35px;
-    position: center;
 }
 
 .color-break-point-1 {
