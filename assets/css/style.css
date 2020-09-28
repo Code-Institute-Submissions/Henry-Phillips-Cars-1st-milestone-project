@@ -149,28 +149,28 @@ body {
 
 /* ----------------------------------------------------------------------------------------About Us content */
 
-.featured-car-heading-main {
+.used-car-heading-main {
     padding-bottom: 50px;
     color: rgba(103,103,103.1);
 }
 
-.featured-car-heading {
+.used-car-heading {
     padding-bottom: 10px;
 }
 
-.featured-car {
+.used-car {
     border: 5px;
     border-color: rgba(103,103,103.1);
 }
 
-.featured-banner-outer {
+.used-banner-outer {
     margin:0;
     padding-top: 25px;
     padding-bottom:125px;
     background-color: #cccccc;
 }
 
-.featured-car-description {
+.used-car-description {
     font-weight: 500;
     background-color: rgba(103,103,103.1);
     color: white; 
