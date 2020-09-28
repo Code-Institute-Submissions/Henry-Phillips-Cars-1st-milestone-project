@@ -248,8 +248,8 @@ body {
 
 .used-vehicle-banner-outer {
     margin:0;
-    padding-top: 25px;
-    padding-bottom:25px;
+    padding-top: 0;
+    padding-bottom:50px;
     background-color: white;
 }
 
@@ -262,5 +262,42 @@ body {
     padding-bottom: 10px;
 }
 
+
 /* ----------------------------------------------------------------------------------------Media queries */
 
+
+@media screen and (max-width: 992px) {
+  .used-car-spec {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+    .used-car-heading {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .used-car-price {
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 993px) {
+  .used-car-spec {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 993px) {
+    .used-car-heading {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 993px) {
+  .used-car-price {
+    font-size: 18px;
+  }
+}
