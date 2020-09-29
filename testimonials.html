@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/99ff1b1a00.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <title>Henry Phillips Cars Ltd</title>
+  </head>
+
+  <body>
+    <!--Navbar and collapsable button used bootstrap for this-->
+    <div>
+      <nav class="navbar navbar-dark navbar-expand-lg fixed-top">
+        <a href="/" class="navbar-brand">Henry Phillips Cars</a>
+        <button
+          class="navbar-toggler ml-auto custom-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNavDropdown"
+        >
+          <ul class="navbar-nav mr-auto">
+            <li class="active nav-item mr-2">
+              <a class="nav-link" href="/">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="vehicles.html"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Vehicles
+              </a>
+              <div
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <a class="dropdown-item" href="vehicles.html#used-vehicle-one"
+                  >Mini Cooper (FEATURED CAR)</a
+                >
+                <a class="dropdown-item" href="vehicles.html#used-vehicle-two"
+                  >Mini Cooper Yellow</a
+                >
+                <a class="dropdown-item" href="vehicles.html#used-vehicle-three"
+                  >Porsche Cayman</a
+                >
+                <a class="dropdown-item" href="vehicles.html#used-vehicle-four"
+                  >Jaguar F-Type</a
+                >
+              </div>
+            </li>
+            <li class="nav-item mr-2">
+              <a class="nav-link" href="customisation.html"
+                >Customisation Options</a
+              >
+            </li>
+            <li class="nav-item mr-2">
+              <a class="nav-link" href="servicing.html">Servicing/Repairs</a>
+            </li>
+            <li class="nav-item mr-2">
+              <a class="nav-link" href="testimonials.html">Testimonials</a>
+            </li>
+            <li class="nav-item mr-2">
+              <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+        <div class="d-none d-md-block">
+          <p class="navbar-text my-auto mr-2 d-md-none d-lg-inline">
+            Telephone: 07940 542605
+          </p>
+        </div>
+      </nav>
+    </div>
+    <!--Hero image utilizing bootstrap-->
+
+    <section class="testimonial-page-content">
+      <div class="testimonial-page-jumbotron jumbotron-fluid">
+        <div class="jumbotron-overlay-text text-center">
+          <p class="lead text-light d-none d-md-block">
+            Number 1 used car and mini specialist in Suffolk. Supplying quality
+            vehicles since 2006!
+          </p>
+          <a class="btn btn-success btn-sm" href="#" role="button"
+            >Book An Appointment Today!</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!--Vehicle page content about Us and meet the owner utlising bootstrap columns-->
+    <div class="content-about-us-hpc container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2
+            class="Welcome-heading text-center text-uppercase font-weight-bold"
+          >
+            What our Customers Say!
+          </h2>
+          <p class="specialist-mini">
+            Customer views and experience with Henry Phillips Cars in Sudbury
+            Suffolk
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <section class="customisation-options">
+      <div class="customisation-options-extras container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="vehicle-body-decals">
+              <img
+                class="vehicle-body-decals rounded border border-secondary"
+                src="assets/images/richard-testimonial.jpg"
+                alt="Vehicle decals options"
+              />
+            </div>
+          </div>
+          <div
+            class="vehicle-body-decals-description col-md-8 border border-secondary rounded"
+          >
+            <h2
+              class="vehicle-body-heading text-center text-uppercase font-weight-bold"
+            >
+              - Friendly family company -
+            </h2>
+
+            <p class="customisation-options-description d-md-block d-lg-block">
+              You know instantly when you meet a car salesman.. Typical wheeler
+              dealer my partner calls them. We have met a few. A big reason why
+              I chose to buy off this garage was because of the owner. I
+              appreciate the relationships you make with your customers and the
+              owner does exactly that. He has the passion for his business and
+              its not all about th. He expressed how he likes to
+              know the background of each car he sells and makes sure they are
+              good quality cars before selling.
+            </p>
+            <h4
+              class="customisation-option-price text-center text-uppercase font-weight-bold"
+            >
+              Richard
+            </h4>
+          </div>
+        </div>
+      </div>
+
+      <div class="customisation-options-extras container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="vehicle-body-decals">
+              <img
+                class="vehicle-body-decals rounded border border-secondary"
+                src="assets/images/jackie-testimonial.jpg"
+                alt="Wheel refurbishment options"
+              />
+            </div>
+          </div>
+          <div
+            class="vehicle-body-decals-description col-md-8 border border-secondary rounded"
+          >
+            <h2
+              class="vehicle-body-heading text-center text-uppercase font-weight-bold"
+            >
+              - No pressure, Absolutely Fantastic -
+            </h2>
+
+            <p class="customisation-options-description d-md-block d-lg-block">
+              Buying a second hand car had become a chore, I’d almost given up
+              and then we stumbled across Henry Phillips Cars. From the get go
+              we knew James was different. James takes pride in knowing the
+              history of the car, he was interested in what we were looking for,
+              he has a passion for selling good quality used cars - I adore my
+              new car!
+            </p>
+            <h4
+              class="customisation-option-price text-center text-uppercase font-weight-bold"
+            >
+              Jackie.
+            </h4>
+          </div>
+        </div>
+      </div>
+
+      <div class="customisation-options-extras-final container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="vehicle-body-decals">
+              <img
+                class="vehicle-body-decals rounded border border-secondary"
+                src="assets/images/christina-will-testimonial.jpg"
+                alt="Vehicle decals options"
+              />
+            </div>
+          </div>
+          <div
+            class="vehicle-body-decals-description col-md-8 border border-secondary rounded"
+          >
+            <h2
+              class="vehicle-body-heading text-center text-uppercase font-weight-bold"
+            >
+              - Incredible service -
+            </h2>
+
+            <p class="customisation-options-description d-md-block d-lg-block">
+              On arrival James made us feel very welcome. He was very
+              professional and knowledgeable but never felt any pressure to buy.
+              He was honest and generally a nice guy. It was our first time
+              buying a newer car and he took the time to go through everything
+              the car had to offer. Would highly recommend and would defiantly
+              return when we are ready for our next car. Thank you James. X 5
+              star
+            </p>
+            <h4
+              class="customisation-option-price text-center text-uppercase font-weight-bold"
+            >
+              Christina and Will
+            </h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="color-break-point-1 container-fluid">
+      <div class="row">
+        <div class="col-12"></div>
+      </div>
+    </div>
+
+    <!--FooterContact Details and Opening times using bootstrap columns-->
+    <footer>
+      <div class="contact-times-banner container-fluid">
+        <div class="row">
+          <div class="col-sm-12 col-md-6 text-center font-weight-bold">
+            <h4 class="contact-details font-weight-bold">Contact Details</h4>
+            <p>Unit 3, Alexandra Road</p>
+            <p>Sudbury, Suffolk</p>
+            <p>CO10 2XH</p>
+            <p>Tel: 07940 542605</p>
+          </div>
+
+          <div class="d-none d-md-block col-md-6 text-center font-weight-bold">
+            <h4 class="opening-details font-weight-bold">Opening Times</h4>
+            <p>Mon-Fri 9:00am to 18:00pm</p>
+            <p>Saturday 9:00am to 16:00pm</p>
+            <p>Sunday Closed</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="color-break-point-2 container-fluid">
+        <div class="row">
+          <div class="col-12"></div>
+        </div>
+      </div>
+
+      <!--Embedded Google map-->
+
+      <div class="google-map-section container-fluid">
+        <div class="row">
+          <div class="col-12">
+            <div class="mapouter">
+              <div class="gmap_canvas">
+                <object
+                  id="gmap_canvas_image"
+                  data="https://maps.google.com/maps?q=Unit%203%20Alexandra%20Road%20Sudbury%20Suffolk%20CO10%202XH&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                ></object
+                ><a href="https://torrent9-fr.com"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="social-links-copyright text-center container-fluid">
+        <div class="row">
+          <div class="col-12">
+            <ul class="list-inline social-links">
+              <li class="list-inline-item">
+                <a target="_blank" href="https://www.facebook.com">
+                  <i class="fab fa-facebook" aria-hidden="true"></i>
+                  <span class="sr-only">Facebook</span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a target="_blank" href="https://www.twitter.com">
+                  <i class="fab fa-twitter-square" aria-hidden="true"></i>
+                  <span class="sr-only">Twitter</span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a target="_blank" href="https://www.linkedin.com">
+                  <i class="fab fa-linkedin" aria-hidden="true"></i>
+                  <span class="sr-only">Linkedin</span>
+                </a>
+              </li>
+            </ul>
+            <h5>Copyright &#169; Henry Phillips Cars. All Rights Reserved</h5>
+            <h6>Designed by Webb Digital Solutions</h6>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

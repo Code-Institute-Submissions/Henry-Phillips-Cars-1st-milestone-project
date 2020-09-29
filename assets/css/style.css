@@ -66,6 +66,14 @@ body {
     padding-bottom: 10%;   
 }
 
+.testimonial-page-jumbotron {
+    height: 100%;
+    background: url("../images/testimonials-jumbotron.jpg") no-repeat center center;
+    background-size: cover;
+    padding-top: 35%;
+    padding-bottom: 10%;   
+}
+
 .jumbotron .btn-success {
     background-color:#1aab3b;
     border-color:#1aab3b;
