@@ -5,6 +5,12 @@ body {
     overflow-x: hidden;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /* ----------------------------------------------------------------------------------------Navbar */
 
 .navbar {
@@ -407,8 +413,9 @@ body {
 
 @media (max-width: 767px) {
   .container, .row {
-    padding:0px;
+    padding: 0px;
     border: hidden;
+    
   }
 }
 
@@ -417,5 +424,12 @@ body {
     padding-left: 15px;
     padding-right: 15px;
     border: 1px;
+    }
+}
+
+@media (max-width: 767px) {
+    [class*="col-"] {
+      padding-left: 0;
+      padding-right: 0;
     }
 }
