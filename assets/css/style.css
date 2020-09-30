@@ -412,3 +412,9 @@ body {
     border: hidden;
   }
 
+@media (max-width: 767px) {
+  .form-group, .container {
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px;
+  }
