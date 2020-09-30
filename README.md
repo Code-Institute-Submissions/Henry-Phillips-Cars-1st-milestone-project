@@ -1,6 +1,6 @@
-![Henry Phillips Cars Ltd](assets/images/hero-mini.jpg)
+![Henry Phillips Cars](assets/images/hero-mini.jpg)
 
-## Henry Phillips Cars LTD
+## Henry Phillips Cars
 
 A comprehensive used car dealership website based in Sudbury, the United Kingdom. The website will feature a number of videos and images of vehicles which are currently available to buy from this dealership. Helping customers make a better informed decision on there next used car preferences. The website will consist of multiple separate pages to include a description of the business and owner,  descriptions of available vehicles for purchase, with walk around videos and images, services and repairs offered by the business and customisation and additional optional extras at vehicle purchase. 
 
