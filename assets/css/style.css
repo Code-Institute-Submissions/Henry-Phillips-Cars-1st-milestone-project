@@ -405,3 +405,10 @@ body {
     font-size: 18px;
   }
 }
+
+@media (max-width: 767px) {
+  .container, .row {
+    padding:0px;
+    border: hidden;
+  }
+
