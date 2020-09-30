@@ -413,7 +413,7 @@ body {
   }
 
 @media (max-width: 767px) {
-  .form-group, .container {
+  .form-group, .contact-us-form {
     padding-left: 15px;
     padding-right: 15px;
     border: 1px;
