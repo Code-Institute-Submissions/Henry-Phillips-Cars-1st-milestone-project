@@ -286,6 +286,12 @@ body {
     font-size: 45px;
 }
 
+.slogon-quote {
+    font-weight: bold;
+    font-style: italic;
+    color:#0089ff;
+}
+
 /* ----------------------------------------------------------------------------------------Vehicle page */
 
 .used-vehicle-banner-outer {
