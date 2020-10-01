@@ -4,13 +4,15 @@ body {
     font-family: "roboto", sans-serif;
 }
 
+/* ---Global CREDIT: Code Institute Slack community---*/
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* ----------------------------------------------------------------------------------------Navbar */
+/* ---Navbar styling CREDIT: Code Institue Whiskey Drop and https://stackoverflow.com/---*/
 
 .navbar {
     margin-bottom: 0;
@@ -48,7 +50,7 @@ body {
 
 
 
-/* ----------------------------------------------------------------------------------------jumbotron image banner */
+/* ---Jumbotron image banner CREDIT: Code Institue Whiskey Drop and Love Running Tutorials---*/
 
 .jumbotron {
     height: 100%;
@@ -98,7 +100,7 @@ body {
     padding-bottom: 10%;   
 }
 
-/* ----------------------------------------------------------------------------------------vehicles, customisations, Service/Repairs images and buttons */
+/* ---vehicles, customisations, Service/Repairs images and buttons---*/
 
 .vehicle-page-image, .custom-options-image, .servicing-repairs-image {
     margin-top: 50px;
@@ -106,7 +108,7 @@ body {
     display: block;
 }
 
-/* ----------------------------------------------------------------------------------------code used from w3schools.com for styling */
+/* ---code and imput researched to layer buttons CREDIT: w3schools.com for styling---*/
 .vehicle-container .vehicle-image-btn {
   position: relative;
   top: 50%;
@@ -161,7 +163,7 @@ body {
   background-color: #1aab3b;
 }
 
-/* ----------------------------------------------------------------------------------------Featured car home page */
+/* ---Featured car and home page---*/
 
 .content-about-us-hpc {
     padding-top: 25px;
@@ -187,7 +189,7 @@ body {
     color: rgba(103,103,103.1);
 }
 
-/* ----------------------------------------------------------------------------------------About Us content */
+/* ---About Us content---*/
 
 .used-car-heading-main {
     padding-bottom: 50px;
@@ -216,7 +218,7 @@ body {
     color: white; 
 }
 
-/* ----------------------------------------------------------------------------------------Google Maps */
+/* ---Google Maps CREDIT: https://stackoverflow.com/---*/
 
 .mapouter {
 	position: relative;
@@ -247,7 +249,7 @@ body {
     line-height: 0;
 }
 
-/* ----------------------------------------------------------------------------------------Contact and opening times */
+/* ---Contact and opening times---*/
 
 .contact-times-banner {
     color: white;
@@ -272,7 +274,7 @@ body {
     margin: 0;
 }
 
-/* ----------------------------------------------------------------------------------------Social links and copyright font awesome */
+/* ---Social links and copyright CREDIT: https://fontawesome.com/---*/
 
 .social-links-copyright {
     background-color: #cccccc;
@@ -290,7 +292,7 @@ body {
     color:#0089ff;
 }
 
-/* ----------------------------------------------------------------------------------------Vehicle page */
+/* ---Vehicle page---*/
 
 .used-vehicle-banner-outer {
     margin:0;
@@ -308,7 +310,7 @@ body {
     padding-bottom: 10px;
 }
 
-/* ----------------------------------------------------------------------------------------customisation and options images and buttons */
+/* ---customisation and options images and buttons---*/
 
 .vehicle-body-decals {
     width: 100%;
@@ -345,7 +347,7 @@ body {
 }
 
 
-/* ----------------------------------------------------------------------------------------Contact Us form */
+/* ---Contact Us form---*/
 
 
 .get-in-touch-contact-form .form-group .contact-us-form .form-control {
@@ -365,13 +367,7 @@ body {
     font-weight: bold;
 }
 
-
-/* ----------------------------------------------------------------------------------------Carousel bootstrap */
-
-
-
-
-/* ----------------------------------------------------------------------------------------Media queries */
+/* ---Media queries CREDIT: https://stackoverflow.com/---*/
 
 
 @media screen and (max-width: 992px) {
