@@ -52,12 +52,26 @@ body {
 
 /* ---Jumbotron image banner CREDIT: Code Institue Whiskey Drop and Love Running Tutorials---*/
 
+.jumbotron-overlay-text {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  font-size: 20px;
+  padding-bottom: 35px;
+  padding-top: 35px;
+  text-align: center;
+}
+
 .jumbotron {
     height: 100%;
     background: url("../images/hero-mini.jpg") no-repeat center center;
     background-size: cover;
     padding-top: 35%;
-    padding-bottom: 10%;   
+    padding-bottom: 10%;  
+    position: relative; 
 }
 
 .vehicles-jumbotron {
@@ -66,6 +80,7 @@ body {
     background-size: cover;
     padding-top: 35%;
     padding-bottom: 10%;   
+    position: relative; 
 }
 
 .customisation-jumbotron {
@@ -74,6 +89,7 @@ body {
     background-size: cover;
     padding-top: 35%;
     padding-bottom: 10%;   
+    position: relative; 
 }
 
 .servicing-jumbotron {
@@ -82,6 +98,7 @@ body {
     background-size: cover;
     padding-top: 35%;
     padding-bottom: 10%;   
+    position: relative; 
 }
 
 .testimonial-page-jumbotron {
@@ -90,6 +107,7 @@ body {
     background-size: cover;
     padding-top: 35%;
     padding-bottom: 10%;   
+    position: relative; 
 }
 
 .contact-us-page-jumbotron {
@@ -98,6 +116,7 @@ body {
     background-size: cover;
     padding-top: 35%;
     padding-bottom: 10%;   
+    position: relative; 
 }
 
 /* ---vehicles, customisations, Service/Repairs images and buttons---*/
@@ -253,7 +272,7 @@ body {
 
 .contact-times-banner {
     color: white;
-    background-color: rgba(103,103,103.1);
+    background-color:rgba(103,103,103.1);
     height: 250px;
     width: 100%;
     padding-top: 35px;
@@ -363,7 +382,7 @@ body {
 }
 
 .contact-us-page-headline {
-    color: #1aab3b;
+    color: #24c749;
     font-weight: bold;
 }
 
