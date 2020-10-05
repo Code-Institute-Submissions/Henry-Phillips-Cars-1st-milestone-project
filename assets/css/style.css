@@ -127,7 +127,7 @@ body {
     display: block;
 }
 
-/* ---code and imput researched to layer buttons CREDIT: w3schools.com for styling---*/
+/* ---code and input researched to layer buttons CREDIT: w3schools.com for styling---*/
 .vehicle-container .vehicle-image-btn {
   position: relative;
   top: 50%;
@@ -296,7 +296,7 @@ body {
 /* ---Social links and copyright CREDIT: https://fontawesome.com/---*/
 
 .social-links-copyright {
-    background-color: #cccccc;
+    background-color: #ffffff;
     padding-top: 35px;
     padding-bottom: 35px;
 }
@@ -455,4 +455,10 @@ body {
       padding-left: 0;
       padding-right: 0;
     }
+}
+
+@media (max-width: 767px) {
+  .jumbotron-overlay-text {
+    display: none;
+  }
 }
