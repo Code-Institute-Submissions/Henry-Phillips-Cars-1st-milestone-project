@@ -2,7 +2,7 @@
 
 ## Henry Phillips Cars
 
-A comprehensive used car dealership website based in Sudbury, the United Kingdom. The website will feature a number of videos and images of vehicles which are currently available to buy from this dealership. Helping customers make a better informed decision on there next used car preferences. The website will consist of multiple separate pages to include a description of the business and owner,  descriptions of available vehicles for purchase, with walk around videos and images, services and repairs offered by the business and customisation and additional optional extras at vehicle purchase. 
+A comprehensive used car dealership website based in Sudbury, the United Kingdom. The website will feature a number of videos and images of vehicles which are currently available to buy from this dealership. Helping customers make a better informed decision on there next used car preferences. The website will consist of multiple separate pages to include a description of the business and owner, descriptions of available vehicles for purchase, with walk around videos and images, services and repairs offered by the business and customisation and additional optional extras at vehicle purchase.
 
 The primary goal of the website is to show case the experience and quality of products offered and give customers the ability to make first contact with the business owner via a contact page and book in for an appointment to view stock.
 
@@ -48,7 +48,7 @@ The website will be to encourage customers to feel confident and comfortable in 
 ##### Visitors to this website are looking for:
 
 - A business to buy a used second hand car which gives them confidence and trust in the product.
-- The ability to make  the choice and return for future services, repairs, and maintenance.
+- The ability to make the choice and return for future services, repairs, and maintenance.
 - A personable service when purchasing their vehicle.
 
 ##### The Ideal Client/Customer:
@@ -73,6 +73,19 @@ The website will be to encourage customers to feel confident and comfortable in 
 [Testimonials Page](documentation/wireframes/testimonials-page-layout.png)
 
 [Contact Us Page](documentation/wireframes/contact-us-page-layout.png)
+
+##### Colours and typography:
+
+- Colours:
+  After sitting down with the business owner and looking at a number of current websites with competitors, 
+  including main dealer car dealership websites we found that they were of neutral colours with a slight colour pop within the site. 
+  Usually to give more enthasis on quality and prestige. Under the advice of the business ownere the colours agreed were greys and greens to use as the colour pop within the site and dark grey and white for the text.
+
+- Typography:
+  "Roboto" font with the fallback of sans-serif for all headings and body content throughout the website. 
+   This was chosen for the clear professional style to make the content easily readable and universal throughout the site.
+
+  "Noto Sans JP" with fallback of sans-serif was chosen as an additional typography for future developement and a change of style should we want to refresh the content on future versions
 
 ### Features
 
@@ -238,32 +251,3 @@ The website will be to encourage customers to feel confident and comfortable in 
 ### Acknowledgements
 
 - All images for the website have been sourced from www.unsplash.com
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
