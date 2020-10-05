@@ -60,19 +60,19 @@ The website will be to encourage customers to feel confident and comfortable in 
 
 ##### Wireframe Mock-ups:
 
-[Mobile First Design](assets/wireframes/henry-phillips-cars-mobile-first-concept.png)
+[Mobile First Design](documentation/wireframes/henry-phillips-cars-mobile-first-concept.png)
 
-[Home Page](assets/wireframes/home-page-layout.png)
+[Home Page](documentation/wireframes/home-page-layout.png)
 
-[Vehicles Page](assets/wireframes/vehicles-page-layout.png)
+[Vehicles Page](documentation/wireframes/vehicles-page-layout.png)
 
-[Customisation and Options Page](assets/wireframes/customisation-and-options-page-layout.png)
+[Customisation and Options Page](documentation/wireframes/customisation-and-options-page-layout.png)
 
-[Servicing and Repairs Page](assets/wireframes/servicing-and-repairs-page-layout.png)
+[Servicing and Repairs Page](documentation/wireframes/servicing-and-repairs-page-layout.png)
 
-[Testimonials Page](assets/wireframes/testimonials-page-layout.png)
+[Testimonials Page](documentation/wireframes/testimonials-page-layout.png)
 
-[Contact Us Page](assets/wireframes/contact-us-page-layout.png)
+[Contact Us Page](documentation/wireframes/contact-us-page-layout.png)
 
 ### Features
 
