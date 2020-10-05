@@ -458,7 +458,43 @@ body {
 }
 
 @media (max-width: 767px) {
-  .jumbotron-overlay-text {
-    display: none;
+  .jumbotron {
+    height: 320px;
+  }
+}
+
+@media (max-width: 767px) {
+  .contact-us-page-jumbotron {
+    height: 320px;
+  }
+}
+
+@media (max-width: 767px) {
+  .testimonial-page-jumbotron {
+    height: 320px;
+  }
+}
+
+@media (max-width: 767px) {
+  .servicing-jumbotron {
+    height: 320px;
+  }
+}
+
+@media (max-width: 767px) {
+  .customisation-jumbotron {
+    height: 320px;
+  }
+}
+
+@media (max-width: 767px) {
+  .vehicles-jumbotron {
+    height: 320px;
+  }
+}
+
+@media (max-width: 767px) {
+  .contact-us-page-headline {
+    font-size: 20px;
   }
 }
