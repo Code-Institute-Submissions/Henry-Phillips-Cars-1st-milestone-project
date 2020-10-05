@@ -107,7 +107,7 @@ The website will be to encourage customers to feel confident and comfortable in 
 
 - Screen scroll to about us details
 
-- Featured car at bottom of screen with walk around video
+- Featured car at bottom of screen with carousel images
 
 - footer to hold contact details and social media links
 
@@ -129,7 +129,7 @@ The website will be to encourage customers to feel confident and comfortable in 
 
 - Screen scroll to about us details
 
-- Featured car at bottom of screen with walk around video
+- Featured car at bottom of screen with carousel images
 
 - Contact us banner
 
@@ -143,7 +143,7 @@ The website will be to encourage customers to feel confident and comfortable in 
 
 - Active buttons to other pages
 
-- Current vehicle pictures with walk around video and vehicle description enquire by a button which takes you to the contact us page with further instructions
+- Current vehicle pictures with carousel images and vehicle description enquire by a button which takes you to the contact us page with further instructions
 
 - Contact us banner
 
@@ -207,7 +207,7 @@ The website will be to encourage customers to feel confident and comfortable in 
 - Nav bar
 - Footer copyright info and social icons
 - Call to action buttons and contact details
-- Walk around videos and site images exist on every page
+- Carousel images and site images exist on every page
 - Mobile First Design
 - Home Page
 - Vehicles Page
@@ -223,6 +223,7 @@ The website will be to encourage customers to feel confident and comfortable in 
 - Order form for parts and accessories
 - Book a service or repair function
 - Part Exchange form
+- Walk around videos of vehicles for great visibility to customers
 
 ### Technologies Used
 
@@ -231,6 +232,7 @@ The website will be to encourage customers to feel confident and comfortable in 
 3. Bootstrap
 4. Google Fonts
 5. Font Awesome
+6. Google Maps
 
 ### Testing
 
@@ -250,4 +252,4 @@ The website will be to encourage customers to feel confident and comfortable in 
 
 ### Acknowledgements
 
-- All images for the website have been sourced from www.unsplash.com
+- All images for the website have been sourced from [www.unsplash.com](https://unsplash.com)
