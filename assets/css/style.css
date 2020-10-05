@@ -1,241 +1,250 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Roboto&display=swap');
-
 body {
-    font-family: "roboto", sans-serif;
+	font-family: "roboto", sans-serif;
 }
+
 
 /* ---Global CREDIT: Code Institute Slack community---*/
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
+
 
 /* ---Navbar styling CREDIT: Code Institue Whiskey Drop and https://stackoverflow.com/---*/
 
 .navbar {
-    margin-bottom: 0;
-    border: 0;
-    width: 100%;
-    background-color: rgba(103,103,103.1);    
+	margin-bottom: 0;
+	border: 0;
+	width: 100%;
+	background-color: rgba(103, 103, 103.1);
 }
 
 .navbar .navbar-toggler {
-    border: 0;
+	border: 0;
 }
 
 .navbar-brand {
-    font-weight: bold;
+	font-weight: bold;
 }
 
 .navbar .navbar-nav a {
-    font-weight: bold;  
+	font-weight: bold;
 }
 
 .navbar .navbar-text {
-    font-weight: bold;
-    color: rgba(255, 255, 255, 1);
+	font-weight: bold;
+	color: rgba(255, 255, 255, 1);
 }
 
 .dropdown-menu {
-    background-color: #1aab3b;
-} 
-
-.dropdown-item {
-    color: white;
-    border: 1px;
-    border-color: rgba(103,103,103.1);
+	background-color: #1aab3b;
 }
 
+.dropdown-item {
+	color: white;
+	border: 1px;
+	border-color: rgba(103, 103, 103.1);
+}
 
 
 /* ---Jumbotron image banner CREDIT: Code Institue Whiskey Drop and Love Running Tutorials---*/
 
 .jumbotron-overlay-text {
-  position: absolute; 
-  bottom: 0; 
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.5); /* Black see-through */
-  color: #f1f1f1; 
-  width: 100%;
-  font-size: 20px;
-  padding-bottom: 35px;
-  padding-top: 35px;
-  text-align: center;
+	position: absolute;
+	bottom: 0;
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.5);
+	/* Black see-through */
+	color: #f1f1f1;
+	width: 100%;
+	font-size: 20px;
+	padding-bottom: 35px;
+	padding-top: 35px;
+	text-align: center;
 }
 
 .jumbotron {
-    height: 100%;
-    background: url("../images/hero-mini.jpg") no-repeat center center;
-    background-size: cover;
-    padding-top: 35%;
-    padding-bottom: 10%;  
-    position: relative; 
+	height: 100%;
+	background: url("../images/hero-mini.jpg") no-repeat center center;
+	background-size: cover;
+	padding-top: 35%;
+	padding-bottom: 10%;
+	position: relative;
 }
 
 .vehicles-jumbotron {
-    height: 100%;
-    background: url("../images/vehicle-orange.jpg") no-repeat center center;
-    background-size: cover;
-    padding-top: 35%;
-    padding-bottom: 10%;   
-    position: relative; 
+	height: 100%;
+	background: url("../images/vehicle-orange.jpg") no-repeat center center;
+	background-size: cover;
+	padding-top: 35%;
+	padding-bottom: 10%;
+	position: relative;
 }
 
 .customisation-jumbotron {
-    height: 100%;
-    background: url("../images/custom-and-repairs-image.jpg") no-repeat center center;
-    background-size: cover;
-    padding-top: 35%;
-    padding-bottom: 10%;   
-    position: relative; 
+	height: 100%;
+	background: url("../images/custom-and-repairs-image.jpg") no-repeat center center;
+	background-size: cover;
+	padding-top: 35%;
+	padding-bottom: 10%;
+	position: relative;
 }
 
 .servicing-jumbotron {
-    height: 100%;
-    background: url("../images/servicing-repairs-image.jpg") no-repeat center center;
-    background-size: cover;
-    padding-top: 35%;
-    padding-bottom: 10%;   
-    position: relative; 
+	height: 100%;
+	background: url("../images/servicing-repairs-image.jpg") no-repeat center center;
+	background-size: cover;
+	padding-top: 35%;
+	padding-bottom: 10%;
+	position: relative;
 }
 
 .testimonial-page-jumbotron {
-    height: 100%;
-    background: url("../images/testimonials-jumbotron.jpg") no-repeat center center;
-    background-size: cover;
-    padding-top: 35%;
-    padding-bottom: 10%;   
-    position: relative; 
+	height: 100%;
+	background: url("../images/testimonials-jumbotron.jpg") no-repeat center center;
+	background-size: cover;
+	padding-top: 35%;
+	padding-bottom: 10%;
+	position: relative;
 }
 
 .contact-us-page-jumbotron {
-    height: 100%;
-    background: url("../images/contact-us.jpg") no-repeat center center;
-    background-size: cover;
-    padding-top: 35%;
-    padding-bottom: 10%;   
-    position: relative; 
+	height: 100%;
+	background: url("../images/contact-us.jpg") no-repeat center center;
+	background-size: cover;
+	padding-top: 35%;
+	padding-bottom: 10%;
+	position: relative;
 }
+
 
 /* ---vehicles, customisations, Service/Repairs images and buttons---*/
 
-.vehicle-page-image, .custom-options-image, .servicing-repairs-image {
-    margin-top: 50px;
-    width: 100%;
-    display: block;
+.vehicle-page-image,
+.custom-options-image,
+.servicing-repairs-image {
+	margin-top: 50px;
+	width: 100%;
+	display: block;
 }
 
+
 /* ---code and input researched to layer buttons CREDIT: w3schools.com for styling---*/
+
 .vehicle-container .vehicle-image-btn {
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: rgba(103,103,103.1);
-  color: white;
-  font-size: 20px;
-  padding: 12px 24px;
-  border: none;
-  cursor: pointer;
-  border-radius: 0;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: rgba(103, 103, 103.1);
+	color: white;
+	font-size: 20px;
+	padding: 12px 24px;
+	border: none;
+	cursor: pointer;
+	border-radius: 0;
 }
 
 .vehicle-container .vehicle-image-btn:hover {
-  background-color: #1aab3b;
+	background-color: #1aab3b;
 }
 
 .custom-container .custom-image-btn {
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: rgba(103,103,103.1);
-  color: white;
-  font-size: 20px;
-  padding: 12px 24px;
-  border: none;
-  cursor: pointer;
-  border-radius: 0;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: rgba(103, 103, 103.1);
+	color: white;
+	font-size: 20px;
+	padding: 12px 24px;
+	border: none;
+	cursor: pointer;
+	border-radius: 0;
 }
 
 .custom-container .custom-image-btn:hover {
-  background-color: #1aab3b;
+	background-color: #1aab3b;
 }
 
 .servicing-container .servicing-image-btn {
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); 
-  background-color: rgba(103,103,103.1);
-  color: white;
-  font-size: 20px;
-  padding: 12px 24px;
-  border: none;
-  cursor: pointer;
-  border-radius: 0;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: rgba(103, 103, 103.1);
+	color: white;
+	font-size: 20px;
+	padding: 12px 24px;
+	border: none;
+	cursor: pointer;
+	border-radius: 0;
 }
 
 .servicing-container .servicing-image-btn:hover {
-  background-color: #1aab3b;
+	background-color: #1aab3b;
 }
+
 
 /* ---Featured car and home page---*/
 
 .content-about-us-hpc {
-    padding-top: 25px;
-    color: rgba(103,103,103.1);
+	padding-top: 25px;
+	color: rgba(103, 103, 103.1);
 }
 
 .specialist-mini {
-    padding-bottom: 25px;
-    color: rgba(103,103,103.1);
+	padding-bottom: 25px;
+	color: rgba(103, 103, 103.1);
 }
 
 .appointment-only {
-    padding-top: 25px;
-    padding-bottom: 25px;
-    color: rgba(103,103,103.1);
+	padding-top: 25px;
+	padding-bottom: 25px;
+	color: rgba(103, 103, 103.1);
 }
 
 .confidence-quote {
-    padding-top: 25px;
-    padding-bottom: 25px;
-    font-weight: bold;
-    font-size: 20px;
-    color: rgba(103,103,103.1);
+	padding-top: 25px;
+	padding-bottom: 25px;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(103, 103, 103.1);
 }
+
 
 /* ---About Us content---*/
 
 .used-car-heading-main {
-    padding-bottom: 50px;
-    color: rgba(103,103,103.1);
+	padding-bottom: 50px;
+	color: rgba(103, 103, 103.1);
 }
 
 .used-car-heading {
-    padding-bottom: 10px;
+	padding-bottom: 10px;
 }
 
 .used-car {
-    border: 5px;
-    border-color: rgba(103,103,103.1);
+	border: 5px;
+	border-color: rgba(103, 103, 103.1);
 }
 
 .used-banner-outer {
-    margin:0;
-    padding-top: 25px;
-    padding-bottom:125px;
-    background-color: #cccccc;
+	margin: 0;
+	padding-top: 25px;
+	padding-bottom: 125px;
+	background-color: #cccccc;
 }
 
 .used-car-description {
-    font-weight: 500;
-    background-color: rgba(103,103,103.1);
-    color: white; 
+	font-weight: 500;
+	background-color: rgba(103, 103, 103.1);
+	color: white;
 }
+
 
 /* ---Google Maps CREDIT: https://stackoverflow.com/---*/
 
@@ -244,8 +253,8 @@ body {
 	text-align: right;
 	height: 100%;
 	width: 100%;
-    margin:0;
-    padding:0;
+	margin: 0;
+	padding: 0;
 }
 
 .gmap_canvas {
@@ -253,248 +262,251 @@ body {
 	background: none;
 	height: 100%;
 	width: 100%;
-    margin: 0;
-    padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 #gmap_canvas_image {
-    width: 100%;
-    height: 320px;
+	width: 100%;
+	height: 320px;
 }
 
 .google-map-section {
-    padding: 0;
-    margin: 0;
-    line-height: 0;
+	padding: 0;
+	margin: 0;
+	line-height: 0;
 }
+
 
 /* ---Contact and opening times---*/
 
 .contact-times-banner {
-    color: white;
-    background-color:rgba(103,103,103.1);
-    height: 250px;
-    width: 100%;
-    padding-top: 35px;
-    padding-bottom: 35px;
+	color: white;
+	background-color: rgba(103, 103, 103.1);
+	height: 250px;
+	width: 100%;
+	padding-top: 35px;
+	padding-bottom: 35px;
 }
 
 .color-break-point-1 {
-    background-color: #1aab3b;
-    height: 25px;
-    padding: 0;
-    margin: 0;
+	background-color: #1aab3b;
+	height: 25px;
+	padding: 0;
+	margin: 0;
 }
 
 .color-break-point-2 {
-    background-color: #1aab3b;
-    height: 25px;
-    padding: 0;
-    margin: 0;
+	background-color: #1aab3b;
+	height: 25px;
+	padding: 0;
+	margin: 0;
 }
+
 
 /* ---Social links and copyright CREDIT: https://fontawesome.com/---*/
 
 .social-links-copyright {
-    background-color: #ffffff;
-    padding-top: 35px;
-    padding-bottom: 35px;
+	background-color: #ffffff;
+	padding-top: 35px;
+	padding-bottom: 35px;
 }
 
 .list-inline-item {
-    font-size: 45px;
+	font-size: 45px;
 }
 
 .slogon-quote {
-    font-weight: bold;
-    font-style: italic;
-    color:#0089ff;
+	font-weight: bold;
+	font-style: italic;
+	color: #0089ff;
 }
+
 
 /* ---Vehicle page---*/
 
 .used-vehicle-banner-outer {
-    margin:0;
-    padding-top: 0;
-    padding-bottom:50px;
-    background-color: white;
+	margin: 0;
+	padding-top: 0;
+	padding-bottom: 50px;
+	background-color: white;
 }
 
 .vehicle-one-car-heading-main {
-    padding-bottom: 50px;
-    color: rgba(103,103,103.1);
+	padding-bottom: 50px;
+	color: rgba(103, 103, 103.1);
 }
 
 .vehicle-one-car-heading {
-    padding-bottom: 10px;
+	padding-bottom: 10px;
 }
+
 
 /* ---customisation and options images and buttons---*/
 
 .vehicle-body-decals {
-    width: 100%;
-    display: block;
+	width: 100%;
+	display: block;
 }
 
 .vehicle-body-heading {
-    padding-bottom: 10px;
+	padding-bottom: 10px;
 }
 
 .customisation-options-extras {
-    margin-top: 50px;
-    border: 5px;
-    border-color: rgba(103,103,103.1);
+	margin-top: 50px;
+	border: 5px;
+	border-color: rgba(103, 103, 103.1);
 }
 
 .customisation-options-extras-final {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    border: 5px;
-    border-color: rgba(103,103,103.1);
+	margin-top: 50px;
+	margin-bottom: 50px;
+	border: 5px;
+	border-color: rgba(103, 103, 103.1);
 }
 
-
 .vehicle-body-decals-description {
-    font-weight: 500;
-    background-color: rgba(103,103,103.1);
-    color: white; 
+	font-weight: 500;
+	background-color: rgba(103, 103, 103.1);
+	color: white;
 }
 
 .customisation-options {
-    width:100%;
-    height:100%;
+	width: 100%;
+	height: 100%;
 }
 
 
 /* ---Contact Us form---*/
 
-
 .get-in-touch-contact-form .form-group .contact-us-form .form-control {
-    color:  rgba(103,103,103.1);
-    font-weight: 500;
-    background-color: #cccccc;
-    border-color:  rgba(103,103,103.1);
+	color: rgba(103, 103, 103.1);
+	font-weight: 500;
+	background-color: #cccccc;
+	border-color: rgba(103, 103, 103.1);
 }
 
 .get-in-touch {
-    padding-top: 50px;
-    padding-bottom: 50px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 .contact-us-page-headline {
-    color: #24c749;
-    font-weight: bold;
+	color: #24c749;
+	font-weight: bold;
 }
+
 
 /* ---Media queries CREDIT: https://stackoverflow.com/---*/
 
-
 @media screen and (max-width: 992px) {
-  .used-car-spec {
-    font-size: 12px;
-  }
-}
-
-@media screen and (max-width: 992px) {
-    .used-car-heading {
-    font-size: 15px;
-  }
+	.used-car-spec {
+		font-size: 12px;
+	}
 }
 
 @media screen and (max-width: 992px) {
-  .used-car-price {
-    font-size: 12px;
-  }
+	.used-car-heading {
+		font-size: 15px;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.used-car-price {
+		font-size: 12px;
+	}
 }
 
 @media screen and (min-width: 993px) {
-  .used-car-spec {
-    font-size: 15px;
-  }
+	.used-car-spec {
+		font-size: 15px;
+	}
 }
 
 @media screen and (min-width: 993px) {
-    .used-car-heading {
-    font-size: 18px;
-  }
+	.used-car-heading {
+		font-size: 18px;
+	}
 }
 
 @media screen and (min-width: 993px) {
-  .used-car-price {
-    font-size: 18px;
-  }
+	.used-car-price {
+		font-size: 18px;
+	}
 }
 
 @media (max-width: 767px) {
-  .container, .row {
-    padding: 0px;
-    border: hidden;
-    
-  }
+	.container,
+	.row {
+		padding: 0px;
+		border: hidden;
+	}
 }
 
 @media (max-width: 767px) {
-  .form-group, .contact-us-form {
-    padding-left: 15px;
-    padding-right: 15px;
-    border: 1px;
-    }
+	.form-group,
+	.contact-us-form {
+		padding-left: 15px;
+		padding-right: 15px;
+		border: 1px;
+	}
 }
 
 @media (max-width: 767px) {
-    [class*="col-"] {
-      padding-left: 0;
-      padding-right: 0;
-    }
-    .row {
-      margin-left: 0;
-      margin-right: 0;
-    }
-    .container-fluid {
-      margin: 0;
-      padding-left: 0;
-      padding-right: 0;
-    }
+	[class*="col-"] {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.row {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.container-fluid {
+		margin: 0;
+		padding-left: 0;
+		padding-right: 0;
+	}
 }
 
 @media (max-width: 767px) {
-  .jumbotron {
-    height: 320px;
-  }
+	.jumbotron {
+		height: 320px;
+	}
 }
 
 @media (max-width: 767px) {
-  .contact-us-page-jumbotron {
-    height: 320px;
-  }
+	.contact-us-page-jumbotron {
+		height: 320px;
+	}
 }
 
 @media (max-width: 767px) {
-  .testimonial-page-jumbotron {
-    height: 320px;
-  }
+	.testimonial-page-jumbotron {
+		height: 320px;
+	}
 }
 
 @media (max-width: 767px) {
-  .servicing-jumbotron {
-    height: 320px;
-  }
+	.servicing-jumbotron {
+		height: 320px;
+	}
 }
 
 @media (max-width: 767px) {
-  .customisation-jumbotron {
-    height: 320px;
-  }
+	.customisation-jumbotron {
+		height: 320px;
+	}
 }
 
 @media (max-width: 767px) {
-  .vehicles-jumbotron {
-    height: 320px;
-  }
+	.vehicles-jumbotron {
+		height: 320px;
+	}
 }
 
 @media (max-width: 767px) {
-  .contact-us-page-headline {
-    font-size: 20px;
-  }
+	.contact-us-page-headline {
+		font-size: 20px;
+	}
 }
