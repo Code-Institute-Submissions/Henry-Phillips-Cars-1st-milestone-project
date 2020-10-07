@@ -391,6 +391,41 @@ body {
 	height: 100%;
 }
 
+/* ---Testimonials page images and buttons---*/
+
+.testimonial-body {
+	width: 100%;
+	display: block;
+}
+
+.testimonials-body-heading {
+	padding-bottom: 10px;
+}
+
+.testimonial-options-extras {
+	margin-top: 50px;
+	border: 5px;
+	border-color: rgba(103, 103, 103.1);
+}
+
+.testimonial-options-extras-final {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	border: 5px;
+	border-color: rgba(103, 103, 103.1);
+}
+
+.customer-quote-description {
+	font-weight: 500;
+	background-color: rgba(103, 103, 103.1);
+	color: white;
+}
+
+.testimonial-options {
+	width: 100%;
+	height: 100%;
+}
+
 
 /* ---Contact Us form---*/
 
