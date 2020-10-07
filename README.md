@@ -187,10 +187,10 @@ The website will be to encourage customers to feel confident and comfortable in 
 
 1. HTML5
 2. CSS3
-3. Bootstrap
-4. Google Fonts
-5. Font Awesome
-6. Google Maps
+3. [Bootstrap](https://getbootstrap.com/)
+4. [Google Fonts](https://fonts.google.com/)
+5. [Font Awesome](https://fontawesome.com/)
+6. [Embed Google Maps](https://www.embedgooglemap.net/)
 
 ### Testing
 
@@ -220,5 +220,11 @@ The website will be to encourage customers to feel confident and comfortable in 
 - Fonts and Font Families From [Google Fonts](https://fonts.google.com/)
 
 ### Acknowledgements
+I would like to thank:
+
+- My mentor, **Aaron Sinnott** for his advice and his guidance on this project before submission.
+- **CI Staff** and **Slack Community** for being a huge source of information and quick with questions posted and assistance requests.
+- **Everyone** that takes part in the **Slack calls**, and **Group channels**.
+- **Jim Morel**, for his help on sorting out the screen wobble and padding on mobile devices, his direction on testing and the MS1 planning call he hosted.
 
 
