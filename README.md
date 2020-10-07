@@ -246,6 +246,8 @@ The website will be to encourage customers to feel confident and comfortable in 
 - Embedded Google Map from [Embed Goggle Maps](https://www.embedgooglemap.net/)
 - Social Media Icons from [Font Awesome](https://fontawesome.com/)
 - Fonts and Font Families From [Google Fonts](https://fonts.google.com/)
+- Page Content/Text from James Osborne at Henry Phillips Cars
+- Testimonials from James Osborne at Henry Phillips Cars
 
 ### Acknowledgements
 
