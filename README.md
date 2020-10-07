@@ -226,6 +226,6 @@ I would like to thank:
 - My mentor, **Aaron Sinnott** for his advice and his guidance on this project before submission.
 - **CI Staff** and **Slack Community** for being a huge source of information and quick with questions posted and assistance requests.
 - **Everyone** that takes part in the **Slack calls**, and **Group channels**.
-- **Jim Morel**, for his help on sorting out the screen wobble and padding on mobile devices, his direction on testing and the MS1 planning call he hosted.
+- **Jim Morel**, for his help on sorting out the screen wobble and padding on mobile devices, his direction on testing and the MS1 planning call he hosted. [Jim Morel](https://github.com/JimLynx)
 
 
