@@ -429,6 +429,11 @@ body {
 
 /* ---Contact Us form---*/
 
+.form-group {
+    padding-left:30%;
+    padding-right:30%;
+}
+
 .get-in-touch-contact-form .form-group .contact-us-form .form-control {
 	color: rgba(103, 103, 103.1);
 	font-weight: 500;
