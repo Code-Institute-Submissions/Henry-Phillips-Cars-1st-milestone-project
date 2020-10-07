@@ -570,25 +570,20 @@ body {
 
 @media (max-width: 767px) {
 	.used-car-description {
-        padding-top: 15px;
-        padding-left: 15px;
-		padding-right: 15px;	
+        padding: 15px;
+        	
 	}
 }
 
 @media (max-width: 767px) {
 	.vehicle-body-decals-description {
-        padding-top: 15px;
-        padding-left: 15px;
-		padding-right: 15px;	
+        padding: 15px;	
 	}
 }
 
 @media (max-width: 767px) {
 	.customer-quote-description {
-        padding-top: 15px;
-        padding-left: 15px;
-		padding-right: 15px;	
+        padding: 15px;	
 	}
 }
 
