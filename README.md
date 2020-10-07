@@ -77,13 +77,13 @@ The website will be to encourage customers to feel confident and comfortable in 
 ##### Colours and typography:
 
 - Colours:
-  After sitting down with the business owner and looking at a number of current websites with competitors, 
-  including main dealer car dealership websites we found that they were of neutral colours with a slight colour pop within the site. 
+  After sitting down with the business owner and looking at a number of current websites with competitors,
+  including main dealer car dealership websites we found that they were of neutral colours with a slight colour pop within the site.
   Usually to give more enthasis on quality and prestige. Under the advice of the business ownere the colours agreed were greys and greens to use as the colour pop within the site and dark grey and white for the text.
 
 - Typography:
-  "Roboto" font with the fallback of sans-serif for all headings and body content throughout the website. 
-   This was chosen for the clear professional style to make the content easily readable and universal throughout the site.
+  "Roboto" font with the fallback of sans-serif for all headings and body content throughout the website.
+  This was chosen for the clear professional style to make the content easily readable and universal throughout the site.
 
   "Noto Sans JP" with fallback of sans-serif was chosen as an additional typography for future developement and a change of style should we want to refresh the content on future versions
 
@@ -92,113 +92,71 @@ The website will be to encourage customers to feel confident and comfortable in 
 ##### Mobile First Design:
 
 - Expandable menu in header
-
 - Hero image
-
 - Active pictures/buttons to websites other pages
-
 - Vehicles
-
 - Custom and Options
-
 - Servicing and Repairs
-
 - Testimonials (optional)
-
 - Screen scroll to about us details
-
 - Featured car at bottom of screen with carousel images
-
 - footer to hold contact details and social media links
 
 ##### Home Page:
 
 - Hero image
-
 - Active pictures/buttons to websites other pages
-
 - Vehicles
-
 - Custom and Options
-
 - Servicing and Repairs
-
 - Testimonials (optional)
-
 - Contact Us form page
-
 - Screen scroll to about us details
-
 - Featured car at bottom of screen with carousel images
-
 - Contact us banner
-
 - Local map
-
 - Social links and copyright
 
 ##### Vehicles Page:
 
 - Hero image
-
 - Active buttons to other pages
-
 - Current vehicle pictures with carousel images and vehicle description enquire by a button which takes you to the contact us page with further instructions
-
 - Contact us banner
-
 - Local map
-
 - Social links and copyright
 
 ##### Customisation and Options Page:
 
 - Hero image
-
 - Active buttons to other pages
-
 - Current vehicle customisation options and prices
-
 - Contact us banner
-
 - Local map
-
 - Social links and copyright
 
 ##### Servicing and Repairs Page:
 
 - Hero image
-
 - Current services options and prices
-
 - Contact us banner
-
 - Local map
-
 - Social links and copyright
 
 ##### Testimonials Page:
 
 - Hero image
-
 - Customer testimonials and picture of customer
-
 - Contact us banner
-
 - Local map
-
 - Social links and copyright
 
 ##### Contact Us Page:
 
 - Hero image
-
 - Contact form
-
 - Contact us banner
-
 - Local map
-
 - Social links and copyright
 
 ### Existing Features
@@ -236,20 +194,31 @@ The website will be to encourage customers to feel confident and comfortable in 
 
 ### Testing
 
-- TBC
+- Testing documentation can be found on a separate document [HERE](documentation/TESTING.md)
 
 ### Deployment
 
-- TBC
-
-##### How to run this project Locally:
-
-- TBC
+- All code was written on Gitpod, (Integrated Development Environment).
+- The code was then pushed to GitHub where it is stored in my [Repository](https://github.com/LeeWebb360/Henry-Phillips-Cars-1st-milestone-project).
+- Under the Settings section of the GitHub repository, scrolled down to GitHub Pages section.
+- Under 'Source' drop-down, the 'Master branch' was selected.
+- Once selected, this publishes the project to GitHub Pages and displays the site URL.
+- The code can be run locally through a download or cloned (Do this by opening the repository, clicking on the green 'Code' button and selecting either clone or download).
+- The Clone option provides a URL, which you can use on your desktop IDE.
+- The Download ZIP option provides a link to download a ZIP file which can be unzipped on your local machine.
 
 ### Credits
 
-- TBC
+- All images for the website have been sourced from [www.unsplash.com](https://unsplash.com)
+- Dropdown buttons adapted from Bootstrap and also Whiskey Drop CI project
+- Navigation bar adapted from Bootstrap and also Whiskey Drop CI project
+- HTML, CSS tips and tricks utilizing [Stack Overflow](https://stackoverflow.com/)
+- Hero Image and jumbotron from [Bootstrap](https://getbootstrap.com/docs/4.5/components/jumbotron/)
+- Carousels from [Bootstrap](https://getbootstrap.com/docs/4.5/components/carousel/)
+- Embedded Google Map from [Embed Goggle Maps](https://www.embedgooglemap.net/)
+- Social Media Icons from [Font Awesome](https://fontawesome.com/)
+- Fonts and Font Families From [Google Fonts](https://fonts.google.com/)
 
 ### Acknowledgements
 
-- All images for the website have been sourced from [www.unsplash.com](https://unsplash.com)
+
