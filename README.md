@@ -205,6 +205,21 @@ The website will be to encourage customers to feel confident and comfortable in 
 5. [Font Awesome](https://fontawesome.com/)
 6. [Embed Google Maps](https://www.embedgooglemap.net/)
 
+### Methodology Used
+
+- Agile Methodology utilising Github Project which consisted of 8 kanban boards. 
+*  1 week of project and pre-sprint planning. 2 week sprint for project build. 3 days testing and deployment to GitPages.
+
+1. [Henry Phillips Cars pre-sprint project planning](https://github.com/users/LeeWebb360/projects/1)
+2. [Henry Phillips Cars mobile first design](https://github.com/users/LeeWebb360/projects/2)
+3. [Henry Phillips Cars Ltd Home Page](https://github.com/users/LeeWebb360/projects/3)
+4. [Henry Phillips Cars Vehicles Page](https://github.com/users/LeeWebb360/projects/4)
+5. [Henry phillips Cars Customisation and Options Page Build](https://github.com/users/LeeWebb360/projects/5)
+6. [Henry Phillips Cars Servicing and Repairs Page](https://github.com/users/LeeWebb360/projects/6)
+7. [Henry Phillips Cars Testimonials Page](https://github.com/users/LeeWebb360/projects/7)
+8. [Henry Phillips Cars Contact Us page](https://github.com/users/LeeWebb360/projects/8)
+
+
 ### Testing
 
 - Testing documentation can be found on a separate document [HERE](documentation/TESTING.md)
