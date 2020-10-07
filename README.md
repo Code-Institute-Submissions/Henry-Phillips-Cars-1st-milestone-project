@@ -200,6 +200,7 @@ The website will be to encourage customers to feel confident and comfortable in 
 
 1. HTML5
 2. CSS3
+3. [Github](https://github.com/) and Gitpod
 3. [Bootstrap](https://getbootstrap.com/)
 4. [Google Fonts](https://fonts.google.com/)
 5. [Font Awesome](https://fontawesome.com/)
