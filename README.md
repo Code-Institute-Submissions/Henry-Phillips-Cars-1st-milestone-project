@@ -187,7 +187,7 @@ The website will be to encourage customers to feel confident and comfortable in 
 
 ### Project Barriers and Solutions
 
-- Vehicle images were not stacking correctly when using a mobile device they were showing up extremely small onto of their descriptions. I found that removing the padding using media queries fixed this and the images could be show on mobile decives which gave a better feel for the site.
+- Vehicle images were not stacking correctly when using a mobile device they were showing up extremely small ontop of their descriptions. I found that removing the padding using media queries fixed this and the images could be show on mobile decives which gave a better feel for the site.
 * I wanted to put in some colour to enhance the feel around the contact and opening times banner . I found that I could not colour margins separately so i researched on Stack Overflow and found that adding a div to both before and after the contact and opening times container and setting paddings with CSS gave me the ability to add the green stripes to the site. This also gives me options for different colour schemes on future development.
 
 - I was not able to get hold of walk around videos for current vehicles so I opted to use carousels to showcase the vehicles and Feature car. Bootstrap was the best choice for this which works very well on all viewscreen options.
