@@ -88,6 +88,7 @@ The website will be to encourage customers to feel confident and comfortable in 
   "Noto Sans JP" with fallback of sans-serif was chosen as an additional typography for future developement and a change of style should we want to refresh the content on future versions
 
 ### Features
+![Henry Phillips Cars Responsive Mobile First Design](assets/images/HenryPhillipsCarsresponsivedesign.jpg)
 
 ##### Mobile First Design:
 
