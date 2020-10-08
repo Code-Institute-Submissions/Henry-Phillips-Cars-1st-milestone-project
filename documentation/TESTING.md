@@ -140,6 +140,20 @@ Was used to check the CSS files
 
   Confirmed that form resets to blank fields after form submission has been completed.
 
+### USER TESTING
+
+- James Osborne (Henry Phillips Cars Business Owner)
+
+  Very please with the mobile view and UX design of the website easy to navigate and make contact with his business great potnetial to develop in future release to accommodate an increase in stock and services. Colours and theme work very well both on mobile, laptop and desktop applications.
+
+- Emma Webb (wife to developer) 
+
+  professional feel easy to use and great focus on the business and owenr on the home page. Liked the functionality of the drop downs in the nav bar and that it takes you to the specific vehicle you are interested in. The moving picture carousels work very well and look really cool.
+
+- Jim Morel (Code Institue Student and Developer)
+
+  The UX is really striking, images vivid and everything is really consistent. Flow is easy to follow. Can't fault anything. Made me miss my 1978 Mini Cooper rebuild, which I sadly had to sell before moving to Ireland
+
 ### RESPONSIVENESS AND DEVICE TESTING
 
 - Devices tested across a range of widths: iphone5(320px) | Samsung S5 (360px) | iPhone 6/7/8/X (375px) | iPhone 6/7/8 Plus (414px) | iPad (768px) | iPad Pro (1024px) | Laptop (1200px) | Large Desktop screen (1920px) utilising DevTools.

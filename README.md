@@ -227,6 +227,7 @@ The website will be to encourage customers to feel confident and comfortable in 
 
 ### Deployment
 
+- Published site to GitPages to view please follow this link [Henry Phillips Cars](https://leewebb360.github.io/Henry-Phillips-Cars-1st-milestone-project/)
 - All code was written on Gitpod, (Integrated Development Environment).
 - The code was then pushed to GitHub where it is stored in my [Repository](https://github.com/LeeWebb360/Henry-Phillips-Cars-1st-milestone-project).
 - Under the Settings section of the GitHub repository, scrolled down to GitHub Pages section.
